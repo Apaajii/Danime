@@ -1,0 +1,76 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+@font-face {
+  font-family: "Roboto";
+  src: url("RobotoSerif-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal:
+}
+
+@font-face {
+  font-family: "Protest";
+  src: url("ProtestStrike-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.js-form-item,
+.form-actions {
+  margin-bottom: 0 !important;
+}
+
+.clearfix .nav-link {
+  width: 100% !important;
+  margin: 0.375rem !important;
+}
+
+#edit-submit {
+  margin-left: 1rem;
+  background-color: #872341 !important;
+  border-color: #872341 !important;
+}
+
+.logogrej {
+  background-color: white !important;
+  margin-right: 0.8rem !important;
+}
+
+#main-wrapper {
+  background-color: #872341 !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+p {
+  color: white;
+  margin: 0.75rem !important;
+  font-family: "Protest", sans-serif !important;
+}
+
+.field--name-title {
+  color: white;
+}
+
+.node__title {
+  margin-bottom: 1.5rem !important;
+  font-family: "Protest", sans-serif !important;
+}
+
+.site-footer {
+  display: none;
+}
+
+header {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.node-readmore a {
+  font-weight: 500 !important;
+  padding: 0.2rem !important;
+  background-color: #872341 !important;
+}
